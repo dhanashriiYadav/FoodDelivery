@@ -1,0 +1,32 @@
+.Deliciousdiv{
+    color: white;
+    /* font-weight: 500; */
+   width: 50%;
+   margin:auto;
+   border: 2px solid black;
+   text-align: center;
+   font-size: 25px;
+   margin-top: 10px;
+   /* background-color:wheat ; */
+   opacity: .8;
+   padding-left: 10px;
+   padding-right: 10px;
+   /* padding: 10px; */
+   box-shadow: 1px 2px 7px 7px white;
+   /* animation: mymove 5s infinite; */
+   background-image: url('../../Images/cutter.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+/* @keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+  } */
+
+@media (max-width:1281px){
+    .Deliciousdiv{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+}

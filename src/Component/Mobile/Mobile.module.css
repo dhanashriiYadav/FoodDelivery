@@ -1,0 +1,43 @@
+
+.mbimg{
+    height: 40rem;
+    background-color: black;
+    width: 24rem;
+    border-radius: 30px;
+    margin-left: 10%;
+    /* margin-top: -10%; */
+    /* transition: transform .7s ease-in-out; */
+    transition: transform .4s;
+    margin-top: 25px;
+    padding-bottom: 5px
+}
+.mbimg:hover{
+    /* cursor: default; */
+    /* transform: rotate(360deg); */
+    /* transition: all 0.3s ease-in-out 0s; */
+    transform: scale(1.1);
+  transform-origin: 50% 50%;
+}
+.mbinnerdiv{
+    background-color: white;
+    width: 22rem;
+    height: 35rem;
+    margin:auto;
+    position: relative;
+    top:60px
+}
+
+@media (max-width:1281px){
+    .mbimg{
+        margin-top: 100px;
+        /* width:50%; */
+        margin: auto;
+    }
+}
+@media (max-width:680px){
+    .mbimg{
+        margin-top: 150px;
+        /* width:90%; */
+        margin: auto;
+    }
+}

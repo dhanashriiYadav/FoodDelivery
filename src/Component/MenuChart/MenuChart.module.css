@@ -1,0 +1,19 @@
+
+
+.cardstyle{
+    width: 50%;
+    /* margin: auto; */
+    padding:10px;
+    margin-top: 40px;
+    /* margin-left: 20px; */
+    margin-left: 10%;
+    /* margin: 20px; */
+    margin-bottom: 30px;
+    box-shadow: 1px 5px 39px 0px black;
+}
+@media (max-width:1281px ){
+    .cardstyle{
+        width: 80%;
+        padding: 2px;
+    };
+}

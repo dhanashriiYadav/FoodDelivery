@@ -1,0 +1,21 @@
+.menu{
+    width: 350px;
+    /* border: 1px solid red; */
+     margin: 5px;
+    padding-left: 10px; 
+    /* float: left; */
+
+}
+.outerMenu{
+    border: 1px solid green;
+    margin: 15px;
+    padding-left: 20px;
+    display: flex;
+    border-radius: 12px ;
+}
+/* @media (min-width:680px){
+    width: 130px;
+} */
+.mname{
+    font-weight: 600;
+}
